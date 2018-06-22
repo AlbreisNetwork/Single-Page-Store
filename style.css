@@ -1,0 +1,81 @@
+body {
+  font-family: 'Open Sans';
+  overflow-x: hidden;
+  padding-bottom: 120px;
+  padding-top: 50px;
+}
+.selectable {display: inline-block;line-height: 20px;font-size:12px;cursor: pointer;margin-right: 15px;margin-bottom: 10px;text-align: center;color: #666;}
+.selectable input {display:none;}
+.selectable input + div {padding: 0;text-align:center;}
+.selectable input:checked + div span {color: #ffd200;}
+
+:focus {outline: none;}
+img {max-width: 100%;}
+button {cursor:pointer;}
+button:focus {outline:none;}
+
+header {position: fixed;width:100%;top:0;left:0;background: #222; color: #fff;text-align: center;line-height: 50px;z-index: 99;}
+header button {background: transparent;color: #fff; border: none; padding: 0;}
+header form {}
+header input {display:none;}
+header ul{margin:0; list-style: none;padding: 0 0 15px 0;position:absolute; top: 100%; left: 0; width: 100%;background: #111; display: none;}
+header ul li {display: block; padding: 0 15px; text-align: left;}
+header ul li:hover {background: #444;}
+header ul li a{color: #fff; display: block; line-height: 40px;text-decoration: none;}
+header ul li a:hover {color: #fff; display: block; line-height: 40px;text-decoration: none;}
+
+.sidebar-right {text-align: center;}
+.logo {font-family: Lobster;font-size: 20px; color: #fddf3e;}
+#products {overflow:hidden;}
+.product {margin: 25px 15px;}
+.product button div {line-height:40px;width:40px;float: right;text-align:center;background: #000; color: #fff;font-weight: bold;}
+.product button {cursor: pointer;padding: 0;font-size: 12px;border: none;background: #ff3a3d;font-weight: bold;color: #fff;text-transform: uppercase;text-align:center;margin: 15px 0;text-align:center; line-height: 40px; width: 100%;}
+.product .promo-time {font-size: 12px;}
+.product .current-price small {color: red;}
+.gallery {display:none;margin: 5px 0;text-align: center;}
+.gallery .row {margin: 0 -5px;}
+.gallery .row > div {padding: 0 5px;}
+.gallery img {margin: 5px 0;}
+#checkout {font-size: 13px;z-index:99;position: fixed; bottom: 0; width: 100%; width: 100vw; padding: 0;background: #333;}
+#checkout > div {position: relative;margin:0;}
+#checkout > div > div {position: initial;}
+#checkout > div > div > div{text-align:left;padding: 30px 15px;background: #222;display: none;position: absolute;bottom: 100%;width: 100%;left: 0;}
+#checkout button {background: none; padding: 0; border: none; color: #fff;}
+#checkout .step{display: initial;padding: 10px;text-align:center;}
+#checkout > button {display:none;width: 100%;background: #0072ff; color: #fff; line-height: 40px;text-align:center;}
+#checkout .cart-step{}
+#checkout .cart-step .fa-check{display:none;}
+#checkout .cart-step .cart-total{display:block;clear:both;}
+#checkout .shipping-step .fa-check{display:none;}
+#checkout .shipping-step{background: #444;color: #fff;}
+#checkout .shipping-step input {width: 100%;margin-bottom: 15px;}
+#checkout .shipping-step label {margin: 0;font-size: 13px;}
+#checkout .shipping-step small {display: block; clear: both;}
+#checkout .shipping-step h4{margin: 15px 0 0 0;}
+#checkout .shipping-step .shipping-methods {}
+#checkout .shipping-step .shipping-methods .selectable{margin-right: 15px;color: #ddd;}
+#checkout .shipping-step form button {margin-top: 15px;padding: 5px 20px;border: 1px solid #999;width: 100%;text-align: center;}
+#checkout .billing-step{background: #555;}
+#checkout .shipping-container > div{max-height: 300px; overflow-y: auto; overflow-x: hidden;}
+#checkout .shipping-container .fa-chevron-down{margin-top:5px;}
+#checkout .shipping-container > div {display:none;}
+#checkout .billing-step .fa-check{display:none;}
+#checkout .billing-step{background: #444;color: #fff;}
+#checkout .billing-step input {width: 100%;margin-bottom: 15px;}
+#checkout .billing-step label {margin: 0;font-size: 13px;}
+#checkout .billing-step small {display: block; clear: both;}
+#checkout .billing-step h4{margin: 15px 0 0 0;}
+#checkout .billing-step .billing-methods {}
+#checkout .billing-step .billing-methods .selectable{margin-right: 15px;color: #ddd;}
+#checkout .billing-step form button {margin-top: 15px;padding: 5px 20px;border: 1px solid #999;width: 100%;text-align: center;}
+#checkout .billing-step{background: #555;}
+#checkout .billing-container > div{max-height: 300px; overflow-y: auto; overflow-x: hidden;}
+#checkout .billing-container .fa-chevron-down{margin-top:5px;}
+#checkout .billing-container > div {display:none;}
+#cart {color: #fff;padding: 15px!important;max-height: 400px; overflow-y: auto; overflow-x: hidden;}
+#cart .cart-item {margin: 15px 0;}
+#cart .item-details > div > div {float: left;padding: 0 15px 0 0;}
+
+.billing-description {text-align; left}
+
+footer {text-align: center;}

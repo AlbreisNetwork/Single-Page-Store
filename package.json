@@ -1,0 +1,22 @@
+{
+  "name": "singlepagestore.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrap-contos.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "html-to-text": "^3.3.0",
+    "htmlparser2": "^3.9.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "request": "^2.83.0",
+    "requestify": "^0.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

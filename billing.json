@@ -1,0 +1,17 @@
+{
+  "Depósito em Conta": {
+    "description": "DADOS DA CONTA<br/>Caixa Econômica Federal<br/>Conta: 00710022-9<br/>Operação: 013<br/>Agência: 0171<br/>Titular: Everaldo Reis da Silva<br/>CPF: 124.549.957-27"
+  },
+  "Cartão de crédito/débito": {
+    "description": "<label>Titular do cartão</label><input type=\"text\" name=\"card_holder\" /><div class=\"row\"><div class=\"col-8\"><label>Número</label><input type=\"text\" name=\"card_number\" /></div><div class=\"col-4\"><label>CCV</label><input type=\"password\" name=\"card_ccv\" /></div></div><div class=\"row\"><div class=\"col-6\"><label>Mês</label><input type=\"text\" name=\"card_month\" /></div><div class=\"col-6\"><label>Ano</label><input type=\"text\" name=\"card_year\" /></div></div>"
+  },
+  "Boleto": {
+    "description": "Pagar com boleto"
+  },
+  "Paypal": {
+    "description": "Pagar com Paypal"
+  },
+  "Pagseguro": {
+    "description": "Pagar com PagSeguro"
+  }
+}
