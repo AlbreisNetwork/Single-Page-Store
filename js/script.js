@@ -199,7 +199,7 @@ function updateShippingData(){
   });
 
   // Verifica valores dos fretes
-  jQuery.getJSON('/sps/shipping.json', function(shipping_methods){
+  jQuery.getJSON('/json/shipping.json', function(shipping_methods){
     
     // Inicia com custo 0
     data.cost = 0;
@@ -400,7 +400,7 @@ window.addEventListener('load', function(){
   });
 
   // Carrega meios de pagamento
-  jQuery.getJSON('/billing.json?v=' + (new Date).getTime(), function(billing_methods){
+  jQuery.getJSON('/json/billing.json?v=' + (new Date).getTime(), function(billing_methods){
     // Inicializa template de produto
     var template = '';
 
@@ -417,7 +417,7 @@ window.addEventListener('load', function(){
 
   });
   // Carrega produtos de arquivo remoto
-  jQuery.getJSON('/products.json?v=' + (new Date).getTime(), function(response){
+  jQuery.getJSON('/json/products.json?v=' + (new Date).getTime(), function(response){
     // Inicializa template de produto
     var template = '';
 
